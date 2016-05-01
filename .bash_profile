@@ -1,3 +1,4 @@
+export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 alias h='history'
 alias c='clear'
 alias ..='cd ..'
