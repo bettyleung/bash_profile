@@ -1,8 +1,9 @@
-export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
+export PATH="/usr/local/bin:$PATH"
 alias h='history'
 alias c='clear'
 alias ..='cd ..'
-alias ...='cd ...'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 alias l='ls'
 alias ll='ls -F'
 alias lll='ls -al'
