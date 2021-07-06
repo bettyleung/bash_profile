@@ -1,4 +1,5 @@
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:./node_modules/.bin:$PATH"
+export NODE_PATH=/usr/local/lib/node_modules
 alias h='history'
 alias c='clear'
 alias ..='cd ..'
@@ -7,3 +8,6 @@ alias ....='cd ../../..'
 alias l='ls'
 alias ll='ls -F'
 alias lll='ls -al'
+alias editbash='nano ~/.bash_profile'
+alias resource='source ~/.bash_profile && echo "Done!"'
+alias gs='git status'
